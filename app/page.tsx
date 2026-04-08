@@ -2,22 +2,13 @@ import React from 'react';
 
 export default function ForumPage() {
   return (
-    <div style={{ backgroundColor: '#000', color: '#fff', minHeight: '100vh', fontFamily: 'sans-serif' }}>
-      <nav style={{ padding: '20px', borderBottom: '1px solid #333', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div style={{ fontWeight: 'bold', fontSize: '20px', color: '#fbbf24' }}>AWEC FORUM</div>
-        <button style={{ backgroundColor: '#fbbf24', color: '#000', border: 'none', padding: '8px 16px', borderRadius: '20px', fontWeight: 'bold' }}>报名参加</button>
-      </nav>
-      <div style={{ textAlign: 'center', padding: '100px 20px' }}>
-        <div style={{ color: '#fbbf24', marginBottom: '20px', fontSize: '14px' }}>● 2026年6月25日 | 中国·香港</div>
-        <h1 style={{ fontSize: '48px', fontWeight: '900', lineHeight: '1.2' }}>
-          亚洲数字经济论坛<br/>
-          <span style={{ color: '#fbbf24' }}>暨亚洲WEB3精英俱乐部成立仪式</span>
-        </h1>
-        <p style={{ color: '#888', fontSize: '20px', marginTop: '20px' }}>连接数字亚洲 · 重构产业新局</p>
-        <div style={{ marginTop: '40px' }}>
-          <button style={{ backgroundColor: '#fbbf24', padding: '15px 30px', borderRadius: '10px', fontSize: '18px', fontWeight: 'bold', border: 'none', cursor: 'pointer' }}>立即报名参会 Register Now</button>
-        </div>
-      </div>
+    <div style={{ backgroundColor: '#000', color: '#fff', minHeight: '100vh', padding: '20px', textAlign: 'center' }}>
+      <h1 style={{ color: '#fbbf24', fontSize: '40px' }}>亚洲数字经济论坛</h1>
+      <h2 style={{ fontSize: '24px' }}>暨亚洲WEB3精英俱乐部成立仪式</h2>
+      <p style={{ color: '#888' }}>2026年6月25日 | 中国·香港</p>
+      <button style={{ backgroundColor: '#fbbf24', padding: '10px 20px', borderRadius: '5px', marginTop: '20px', fontWeight: 'bold' }}>
+        立即报名 Register Now
+      </button>
     </div>
   );
 }
